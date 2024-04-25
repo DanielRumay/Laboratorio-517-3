@@ -1,3 +1,4 @@
+import Dropdown from 'react-bootstrap/Dropdown';
 const feather = require('feather-icons');
 
 setTimeout(() => {
@@ -21,17 +22,18 @@ const Header = () => {
                 <li className="nav-item">
                   <a className="nav-link" href="#">ingresar</a>
                 </li>
-                <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Español
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Español</a></li>
-                    <li><a className="dropdown-item" href="#">English</a></li>
-                    <li><hr className="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="#">Otros idiomas...</a></li>
-                  </ul>
-                </li>
+                <Dropdown>
+    <Dropdown.Toggle variant="success" id="dropdown-basic">
+        Idioma <i data-feather="globe"></i>
+    </Dropdown.Toggle>
+
+    <Dropdown.Menu>
+        <Dropdown.Item href="#/action-1">Español</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">English</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Deutsch</Dropdown.Item>
+    </Dropdown.Menu>
+</Dropdown>
+
                 <li className="nav-item">
                   <a className="nav-link disabled" aria-disabled="true">soporte</a>
                 </li>

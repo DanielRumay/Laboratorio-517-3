@@ -7,6 +7,7 @@ setTimeout(() => {
 const Aside = () => {
     return (
         <aside>
+            <h1><i data-feather="user-check"></i><b> REGISTRATE </b><i data-feather="user-plus"></i> </h1>
             <label><i data-feather="user"></i> Nombre completo</label>
             <br />
             <input type="text" required />

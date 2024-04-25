@@ -37,9 +37,6 @@ const Main = () => {
                         alt="Third slide"
                     />
         <Carousel.Caption>
-          <h4 className="Letra3"><b>
-          Conecte sus equipos y optimice sus comunicaciones con mensajería instantánea integrada en la plataforma Zoom
-          </b></h4>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
