@@ -6,8 +6,3 @@
     line-height: 1.5;
     margin-top: 20px;
 }
-
-.carousel-image {
-    max-height: 400px;
-    object-fit: cover; 
-}
