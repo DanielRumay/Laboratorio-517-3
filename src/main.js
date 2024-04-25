@@ -1,29 +1,49 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 const Main = () => {
     return (
         <main>
-            <div id="carouselExample" className="carousel slide">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrMbPG4cFXPXBbkxIPcAJskY7sF679oGj5dbq4K_YCWw&s" className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="https://explore.zoom.us/media/acc-feature01.png" className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="https://www.zoom.com/contentassets/fde9f1d3f5574877a5e58bb2ff94cca7/aic-meeting-questions-blog-image.jpg?t=20240416030002" className="d-block w-100" alt="..." />
-                    </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
-            </div>
+            <Carousel>
+      <Carousel.Item>
+      <img
+                        className="carousel-image"
+                        src="https://s1.eestatic.com/2020/03/26/invertia/mercados/bolsa-teletrabajo-mercados_477713998_149174031_1706x960.jpg"
+                        alt="First slide"
+                    />
+        <Carousel.Caption>
+          <h3 className="Letra"><b>ZOOM MEETING</b></h3>
+          <p className="Letra"><b>Una sola plataforma para establecer una conexión humana sin límites</b></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img
+                        className="carousel-image"
+                        src="https://explore.zoom.us/media/acc-feature01.png"
+                        alt="Second slide"
+                    />
+        <Carousel.Caption>
+          <h5 className="Letra2"><b>
+            Logre que el trabajo en equipo resulte más significativo en equipos
+            <br/>
+          híbridos con soluciones de colaboración modernas
+          </b></h5>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img
+                        className="carousel-image"
+                        src="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2020/04/hipertextual-zoom-deja-expuestos-miles-videos-internet-vulnerando-privacidad-sus-usuarios-2020603633.jpg?fit=1500%2C973&quality=50&strip=all&ssl=1"
+                        alt="Third slide"
+                    />
+        <Carousel.Caption>
+          <h4 className="Letra3"><b>
+          Conecte sus equipos y optimice sus comunicaciones con mensajería instantánea integrada en la plataforma Zoom
+          </b></h4>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+
         </main>
     );
 }
