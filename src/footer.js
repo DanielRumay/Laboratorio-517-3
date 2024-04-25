@@ -1,13 +1,9 @@
-const Footer = () => {
-    const footerStyle = {
-        textAlign: 'center',
-        fontSize: '14px',
-        lineHeight: '1.5',
-        marginTop: '20px',
-    };
+import './style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+const Footer = () => {
     return (
-        <footer style={footerStyle}>
+        <footer className="footerStyle">
             <p>
                 Copyright ©2024 Zoom Video Communications, Inc. Todos los derechos reservados.
                 <br />
