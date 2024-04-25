@@ -7,27 +7,27 @@ setTimeout(() => {
 const Aside = () => {
     return (
         <aside>
-            <i data-feather="user"></i>
-            <label>Nombre completo</label>
+            <label><i data-feather="user"></i> Nombre completo</label>
             <br />
             <input type="text" required />
             <br />
-            <i data-feather="mail"></i>
-            <label>Correo</label>
+            <br />
+            <label><i data-feather="mail"></i> Correo</label>
             <br />
             <input type="email" required />
             <br />
-            <label>Confirmar correo</label>
+            <br />
+            <label><i data-feather="at-sign"></i> Confirmar correo</label>
             <br />
             <input type="email" required />
             <br />
-            <i data-feather="lock"></i>
-            <label>Contraseña</label>
+            <br />
+            <label><i data-feather="lock"></i> Contraseña</label>
             <br />
             <input type="password" required />
             <br />
-            <i data-feather="map"></i>
-            <label>Selecciona país</label>
+            <br />
+            <label><i data-feather="map"></i> Selecciona país</label>
             <br />
             <select name="pais">
     {[

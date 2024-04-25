@@ -14,6 +14,7 @@ root.render(
     <StrictMode>
         <Header></Header>
         <div className="container">
+            <br/>
             <div className="row">
                 <div className="col-md-8">
                     <Main></Main>
