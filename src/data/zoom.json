@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Zoom 1",
+        "slug": "zoom-1",
+        "description": "Descripcion Zoom 1",
+        "picture": "https://s1.eestatic.com/2020/03/26/invertia/mercados/bolsa-teletrabajo-mercados_477713998_149174031_1706x960.jpg"
+    },
+    {
+        "name": "Zoom 2",
+        "slug": "zoom-2",
+        "description": "Descripcion Zoom 2",
+        "picture": "https://explore.zoom.us/media/acc-feature01.png"
+    },
+    {
+        "name": "Zoom 3",
+        "slug": "zoom-3",
+        "description": "Descripcion Zoom 3",
+        "picture": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2020/04/hipertextual-zoom-deja-expuestos-miles-videos-internet-vulnerando-privacidad-sus-usuarios-2020603633.jpg?fit=1500%2C973&quality=50&strip=all&ssl=1"
+    }
+]

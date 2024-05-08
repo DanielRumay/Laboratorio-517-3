@@ -9,5 +9,5 @@ npm install
 npm run start
 npm i bootstrap react-bootstrap
 npm install feather-icons
-npm init vite@latest react-router -- --template react
+npm install react-router-dom
 */
