@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { useNavigate } from "react-router-dom";
-import Gatos from './data/gatos.json'
+import Zoom from './data/zoom.json'
 
 const feather = require('feather-icons');
 
