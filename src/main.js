@@ -20,11 +20,11 @@ const Main = () => {
     return <main>
         <Carousel>
             {
-                Gatos.map(it => {
+                Zoom.map(it => {
                     return (<Carousel.Item onClick={(e) => {
                         e.preventDefault(); handleClick(it.slug)
                     }}>
-                        <img className='w-100 dark-image' src={it.picture}></img>
+                        <img className='w-100 dark-image carousel-image' src={it.picture}></img>
                         <Carousel.Caption>
                             <h3>{it.name}</h3>
                             <p>{it.description}</p>

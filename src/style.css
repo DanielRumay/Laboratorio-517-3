@@ -1,21 +1,9 @@
-.carousel-image {
-    height: 450px;
-    width: 825px;
-}
-
-.Letra{
-    color: black;
-}
-
-.Letra2{
-    color: white;
-}
-
-.Letra3{
-    color: #7ddfea;
-}
-
 .dropdown-button-color {
     background-color: skyblue;
     border-color: skyblue;
+}
+
+.carousel-image{
+    height: 500px;
+    width: 825px;
 }

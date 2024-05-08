@@ -24,7 +24,7 @@ const Header = () => {
                   <a className="nav-link" href="#">ingresar</a>
                 </li>
                 <Dropdown>
-    <Dropdown.Toggle variant="success" id="dropdown-basic">
+    <Dropdown.Toggle variant="Dropdown" id="dropdown-basic">
         Idioma <i data-feather="globe"></i>
     </Dropdown.Toggle>
 

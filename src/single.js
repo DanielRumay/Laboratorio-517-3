@@ -9,7 +9,7 @@ const Single = () => {
         <h1>{zoom.name}</h1>
         <hr></hr>
         <img src={zoom.picture}></img>
-        <p>{zoom.description}</p>
+        <h4><b><br/>{zoom.description}</b></h4>
     </>);
 }
 
