@@ -1,3 +1,5 @@
+import './style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const feather = require('feather-icons');
 
 setTimeout(() => {
@@ -6,31 +8,31 @@ setTimeout(() => {
 
 const Aside = () => {
     return (
-        <aside>
+        <aside className="AsideStyle">
             <h1><i data-feather="user-check"></i><b> REGISTRATE </b><i data-feather="user-plus"></i> </h1>
             <label><i data-feather="user"></i> Nombre completo</label>
             <br />
-            <input type="text" required />
+            <input className="wallfond" type="text" required />
             <br />
             <br />
             <label><i data-feather="mail"></i> Correo</label>
             <br />
-            <input type="email" required />
+            <input className="wallfond" type="email" required />
             <br />
             <br />
             <label><i data-feather="at-sign"></i> Confirmar correo</label>
             <br />
-            <input type="email" required />
+            <input className="wallfond" type="email" required />
             <br />
             <br />
             <label><i data-feather="lock"></i> Contraseña</label>
             <br />
-            <input type="password" required />
+            <input className="wallfond" type="password" required />
             <br />
             <br />
             <label><i data-feather="map"></i> Selecciona país</label>
             <br />
-            <select name="pais">
+            <select className="Pais" name="pais">
     {[
         "Afganistán", "Albania", "Alemania", "Andorra", "Angola",
         "Antigua y Barbuda", "Arabia Saudita", "Argelia", "Argentina", "Armenia",

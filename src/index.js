@@ -28,7 +28,10 @@ const router = createBrowserRouter([
             },
             {
                 path: "detalle/:slug",
-                element: <Single />,
+                element: 
+                    <div className="wallpaper">
+                        <Single />,
+                    </div>
             },
         ],
     },

@@ -6,10 +6,10 @@ const Single = () => {
     const zoom = Zoom.find(it => currentRoute.includes(it.slug))
 
     return (<>
-        <h1>{zoom.name}</h1>
+        <h1 className="AsideStyle">{zoom.name}</h1>
         <hr></hr>
-        <img src={zoom.picture}></img>
-        <h4><b><br/>{zoom.description}</b></h4>
+        <img className='w-100'src={zoom.picture}></img>
+        <h4 className="AsideStyle"><b><br/>{zoom.description}</b></h4>
     </>);
 }
 

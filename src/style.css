@@ -1,9 +1,18 @@
-.dropdown-button-color {
-    background-color: skyblue;
-    border-color: skyblue;
+.AsideStyle {
+    color: rgb(36, 50, 174);
 }
 
 .carousel-image{
     height: 500px;
     width: 825px;
+}
+.wallpaper{
+    background-color: rgb(154, 238, 255);
+}
+.wallfond{
+    background-color: rgb(198, 224, 253);
+}
+.Pais{
+    background-color: rgb(198, 224, 253);
+    color: rgb(36, 50, 174);
 }
