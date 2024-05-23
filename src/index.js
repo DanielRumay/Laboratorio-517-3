@@ -29,7 +29,7 @@ const router = createBrowserRouter([
             {
                 path: "detalle/:slug",
                 element: 
-                    <div className="wallpaper">
+                    <div >
                         <Single />,
                     </div>
             },
