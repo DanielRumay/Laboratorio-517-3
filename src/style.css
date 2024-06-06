@@ -15,4 +15,15 @@
 .Pais{
     background-color: rgb(198, 224, 253);
     color: rgb(36, 50, 174);
+    border: 2.75px solid #2432AE;
+    ;
+}
+.Pais::placeholder {
+    color: rgb(114, 120, 175);
+}
+.Pais:focus{
+    background-color: rgb(198, 224, 253);
+    color: rgb(36, 50, 174);
+    border: 2.75px solid #2432AE;
+
 }
